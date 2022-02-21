@@ -1,0 +1,130 @@
+/* NOTE!!! 
+  2 classes reduced-margin-1 và reduced-margin-2 
+  mình thêm vào chỉ để khoảng cách giữa các block 
+  giống y chang đề bài (nếu bỏ đi 2 classes này thì
+  hiển thị sẽ khác đề bài một xíu), vì các heading 
+  ở khối lớn "milestones" và khối lớn "drink-menu" 
+  mình dùng heading h2 thay vì heading h1 như đề bài
+  (các heading này có ảnh hưởng một chút tới margin -
+  mình nghĩ vậy :D)*/
+
+/* Điều chỉnh margin của các heading */
+.reduced-margin-1 {
+  margin-top: 26.8px;
+  margin-bottom: 26.8px;
+}
+
+.reduced-margin-2 {
+  margin-top: 21.44px;
+  margin-bottom: 21.44px;
+}
+/* ----------------------------------------------------------- */
+
+/* START GENERAL */
+#drink-menu-heading,
+.secondary-heading {
+  text-align: center;
+}
+
+#about,
+#milestones {
+  background-color: brown;
+  color: white;
+}
+
+.secondary-heading {
+  font-size: 40px;
+}
+
+#primary-heading {
+  color: brown;
+  background-color: #fff1e2;
+}
+
+.secondary-heading--uppercase {
+  text-transform: uppercase;
+}
+
+#about-pic-1,
+#about-pic-3 {
+  width: 50%;
+}
+/* END GENERAL */
+
+/* START HEADER */
+#logo {
+  /* Để kích thước logo là px (kích thước
+  tuyệt đối) vì khi thay đổi kích thước màn
+  hình thì tấm hình không thay đổi kích thước
+  theo thẻ cha*/
+  width: 100px;
+  height: 100px;
+}
+
+#main-nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-size: 20px;
+  color: #005cb4;
+  text-decoration: none;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #004b93;
+  text-decoration: underline solid #004b93;
+}
+/* END HEADER */
+
+/* START ABOUT */
+#about-content {
+  font-size: 30px;
+  text-align: justify;
+}
+
+.important-text {
+  color: black;
+}
+/* END ABOUT */
+
+/* START MILESTONES */
+.milestones-item {
+  font-size: 25px;
+}
+/* END MILESTONES */
+
+/* START DRINK MENU */
+#drink-menu-heading {
+  font-size: 32px;
+}
+
+#drink-menu-table,
+#drink-menu-table th,
+#drink-menu-table td {
+  border: 1px solid black;
+}
+
+#drink-menu-table {
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.drink-menu-item--center {
+  text-align: center;
+}
+
+.drink-menu-item--right {
+  text-align: right;
+}
+/* END DRINK MENU */
+
+/* START FOOTER */
+#contact {
+  text-align: center;
+}
+/* END FOOTER */

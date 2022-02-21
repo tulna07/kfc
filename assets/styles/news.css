@@ -1,0 +1,29 @@
+#body {
+  background-color: grey;
+}
+
+#news {
+  width: 60%;
+  background-color: white;
+}
+
+#primary-heading {
+  color: brown;
+  font-size: 40px;
+  text-align: center;
+
+  /* Điều chỉnh margin cho heading 
+  để hiển thị giống y chang đề vì
+  đề bài dùng h2, mình dùng h1 */
+  margin-top: 33.2px;
+  margin-bottom: 33.2px;
+}
+
+#news > p,
+#news > ol {
+  font-size: 20px;
+}
+
+#poster {
+  width: 100%;
+}
